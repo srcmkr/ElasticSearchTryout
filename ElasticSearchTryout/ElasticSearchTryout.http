@@ -1,0 +1,9 @@
+@ElasticSearchTryout_HostAddress = http://localhost:5039
+
+GET {{ElasticSearchTryout_HostAddress}}/get
+Accept: application/json
+
+###
+
+POST {{ElasticSearchTryout_HostAddress}}/post
+Accept: application/json
